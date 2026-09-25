@@ -1,0 +1,26 @@
+.profile-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 242, 242);
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.card img {
+    display: block;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
